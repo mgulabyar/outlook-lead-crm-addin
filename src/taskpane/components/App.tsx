@@ -209,7 +209,6 @@
 // export default App;
 
 
-/* global Office */
 import React, { useState } from "react";
 import {
   Box, Typography, Button, Paper, CircularProgress, 
