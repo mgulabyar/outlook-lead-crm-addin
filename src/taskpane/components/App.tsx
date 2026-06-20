@@ -180,21 +180,6 @@
 //                 </Stack>
 //               </Paper>
 
-//               {/* AI INSIGHT */}
-//               <Box sx={{ p: 2, bgcolor: "#f0f9ff", borderRadius: 2, border: "1px solid #bae6fd" }}>
-//                 <Stack direction="row" spacing={1} alignItems="center" sx={{ mb: 1 }}>
-//                   <AutoGraph sx={{ fontSize: 18, color: "#0369a1" }} />
-//                   <Typography variant="caption" fontWeight={900} color="#0369a1" sx={{ letterSpacing: 0.5 }}>STRATEGIC INTENT</Typography>
-//                 </Stack>
-//                 <Typography variant="body2" sx={{ color: "#075985", fontStyle: "italic", lineHeight: 1.5, fontWeight: 500 }}>
-//                   "{lead.intent_summary}"
-//                 </Typography>
-//               </Box>
-
-//             </Box>
-//           </Fade>
-//         )}
-//       </Box>
 
 
 
