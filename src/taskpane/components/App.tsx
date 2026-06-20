@@ -135,50 +135,7 @@
 //           {loading ? <CircularProgress size={22} sx={{ color: "white" }} /> : "Capture & Sync Lead"}
 //         </Button>
 
-//         {lead && (
-//           <Fade in={true}>
-//             <Box sx={{ textAlign: "left" }}>
-              
-//               {/* ANALYTICS CARD */}
-//               <Card variant="outlined" sx={{ p: 2, mb: 3, borderRadius: 2, borderLeft: `6px solid ${getPriorityColor(lead.priority)}`, bgcolor: "white" }}>
-//                 <Stack direction="row" justifyContent="space-between" alignItems="center" sx={{ mb: 1 }}>
-//                   <Typography variant="caption" fontWeight={900} color="textSecondary">CONVERSION SCORE</Typography>
-//                   <Chip label={lead.priority.toUpperCase()} size="small" sx={{ fontWeight: 900, fontSize: "10px", height: 20, bgcolor: "#f8fafc", color: getPriorityColor(lead.priority), border: `1px solid ${getPriorityColor(lead.priority)}` }} />
-//                 </Stack>
-//                 <Stack direction="row" alignItems="baseline" spacing={1}>
-//                   <Typography variant="h3" fontWeight={900} sx={{ color: "#0f172a" }}>{lead.lead_score}</Typography>
-//                   <Typography variant="body2" color="textSecondary" fontWeight={700}>/ 100</Typography>
-//                 </Stack>
-//                 <LinearProgress variant="determinate" value={lead.lead_score} sx={{ height: 8, borderRadius: 5, mt: 1.5, bgcolor: "#f1f5f9", "& .MuiLinearProgress-bar": { bgcolor: getPriorityColor(lead.priority) } }} />
-//               </Card>
 
-//               {/* DATA ATTRIBUTES */}
-//               <Typography variant="caption" fontWeight={800} color="textSecondary" sx={{ mb: 1.5, display: "block", letterSpacing: 1 }}>
-//                 EXTRACTED CRM DATA
-//               </Typography>
-
-//               <Paper variant="outlined" sx={{ p: 2, borderRadius: 2, bgcolor: "white", mb: 3 }}>
-//                 <Stack spacing={2.5}>
-//                   {[
-//                     { label: "FULL NAME", val: lead.name, icon: <AccountCircle /> },
-//                     { label: "ORGANIZATION", val: lead.company, icon: <Business /> },
-//                     { label: "JOB TITLE", val: lead.designation, icon: <Work /> },
-//                     { label: "CONTACT", val: lead.phone, icon: <ContactPhone /> },
-//                   ].map((item, i) => (
-//                     <Stack key={i} direction="row" spacing={2} alignItems="center">
-//                       <Box sx={{ color: "#64748b", display: "flex" }}>{item.icon}</Box>
-//                       <Box>
-//                         <Typography variant="caption" sx={{ fontSize: "10px", fontWeight: 800, color: "#94a3b8", display: "block", lineHeight: 1 }}>
-//                           {item.label}
-//                         </Typography>
-//                         <Typography variant="body2" fontWeight={700} color="#1e293b">
-//                           {item.val || "Not specified"}
-//                         </Typography>
-//                       </Box>
-//                     </Stack>
-//                   ))}
-//                 </Stack>
-//               </Paper>
 
 
 
