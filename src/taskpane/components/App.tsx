@@ -196,13 +196,7 @@
 //         )}
 //       </Box>
 
-//       {/* SYSTEM FOOTER */}
-//       <Box sx={{ p: 1.5, textAlign: "left", bgcolor: "white", borderTop: "1px solid #e2e8f0" }}>
-//         <Typography variant="caption" sx={{ fontSize: "9px", fontWeight: 700, color: "#94a3b8" }}>
-//           CRM NODE ACTIVE • PORT 8003 • AUTHENTICATED
-//         </Typography>
-//       </Box>
-//     </Box>
+
 
 
 
